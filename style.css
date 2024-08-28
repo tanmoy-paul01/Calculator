@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.container{
+    border: 3px solid #0a0a0a;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg, #c1c1c1, #0a0a0a);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+    box-shadow: inset -3px -3px 7px #00000042, 
+    inset 3px 3px 5px rgba(0, 0, 0, 0.374);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 11px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #c1c1c1;
+    box-shadow: inset -3px -3px 7px #ffffff42, 
+    inset 3px 3px 5px rgba(0, 0, 0, 0.374);
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #dedddd; 
+    box-shadow: -3px -3px 7px #ffffff42, 
+    3px 3px 5px rgba(0, 0, 0, 0.374);
+}
+
+.equalBtn{
+    background-color: #fb7c14;
+    color: white;
+}
+.equalBtn:hover{
+    color: black;
+    background-color: #fb7c14;
+    box-shadow: -3px -3px 7px #ffffff42, 
+    3px 3px 5px rgba(0, 0, 0, 0.374);
+}
+
+.operator{
+    color: #3f820f;
+}
+.operator:hover{
+    color: #245303;
+}
